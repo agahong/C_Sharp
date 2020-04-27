@@ -1,0 +1,7 @@
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\0427\0427\bin\Debug\0427.exe.config
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\0427\0427\bin\Debug\0427.exe
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\0427\0427\bin\Debug\0427.pdb
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\0427\0427\obj\Debug\0427.csprojAssemblyReference.cache
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\0427\0427\obj\Debug\0427.csproj.CoreCompileInputs.cache
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\0427\0427\obj\Debug\0427.exe
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\0427\0427\obj\Debug\0427.pdb
