@@ -4,4 +4,3 @@ C:\Users\LEE\Desktop\비트수업\비트_고급\C#\cpp2cs\cpp2cs\bin\Debug\cpp2c
 C:\Users\LEE\Desktop\비트수업\비트_고급\C#\cpp2cs\cpp2cs\obj\Debug\cpp2cs.csproj.CoreCompileInputs.cache
 C:\Users\LEE\Desktop\비트수업\비트_고급\C#\cpp2cs\cpp2cs\obj\Debug\cpp2cs.exe
 C:\Users\LEE\Desktop\비트수업\비트_고급\C#\cpp2cs\cpp2cs\obj\Debug\cpp2cs.pdb
-C:\Users\LEE\Desktop\비트수업\비트_고급\C#\cpp2cs\cpp2cs\obj\Debug\cpp2cs.csprojAssemblyReference.cache

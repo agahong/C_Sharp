@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{64964829-4BA2-4525-82BA-6E39DA4BCDCD}</ProjectGuid>
+    <ProjectGuid>{C72000AD-09FE-4CFA-ABED-771DBEC8EAB9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>cpp2cs</RootNamespace>
-    <AssemblyName>cpp2cs</AssemblyName>
+    <RootNamespace>_0428컬렉션</RootNamespace>
+    <AssemblyName>_0428컬렉션</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccManager.cs" />
-    <Compile Include="Account.cs" />
-    <Compile Include="ContriAccount.cs" />
-    <Compile Include="FaitAccount.cs" />
+    <Compile Include="Data.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="wbGlobal.cs" />
+    <Compile Include="Sample.cs" />
+    <Compile Include="wbContainer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

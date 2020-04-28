@@ -1,0 +1,7 @@
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\_0428프로젝트\_0428프로젝트\bin\Debug\_0428프로젝트.exe.config
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\_0428프로젝트\_0428프로젝트\bin\Debug\_0428프로젝트.exe
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\_0428프로젝트\_0428프로젝트\bin\Debug\_0428프로젝트.pdb
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\_0428프로젝트\_0428프로젝트\obj\Debug\0428MiniProject.csprojAssemblyReference.cache
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\_0428프로젝트\_0428프로젝트\obj\Debug\0428MiniProject.csproj.CoreCompileInputs.cache
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\_0428프로젝트\_0428프로젝트\obj\Debug\_0428프로젝트.exe
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\_0428프로젝트\_0428프로젝트\obj\Debug\_0428프로젝트.pdb

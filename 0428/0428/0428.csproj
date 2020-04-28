@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{64964829-4BA2-4525-82BA-6E39DA4BCDCD}</ProjectGuid>
+    <ProjectGuid>{2AAA4EA9-3EDE-4C4B-9BC1-16AF411A1653}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>cpp2cs</RootNamespace>
-    <AssemblyName>cpp2cs</AssemblyName>
+    <RootNamespace>_0428</RootNamespace>
+    <AssemblyName>0428</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccManager.cs" />
-    <Compile Include="Account.cs" />
-    <Compile Include="ContriAccount.cs" />
-    <Compile Include="FaitAccount.cs" />
+    <Compile Include="ClimateMonitor.cs" />
+    <Compile Include="ConsoleLogger.cs" />
+    <Compile Include="FileLogger.cs" />
+    <Compile Include="ILogger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="wbGlobal.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{64964829-4BA2-4525-82BA-6E39DA4BCDCD}</ProjectGuid>
+    <ProjectGuid>{7B9E7DF6-87B8-4BA5-8D08-361DD89CDA78}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>cpp2cs</RootNamespace>
-    <AssemblyName>cpp2cs</AssemblyName>
+    <RootNamespace>_0428프로젝트</RootNamespace>
+    <AssemblyName>_0428프로젝트</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccManager.cs" />
-    <Compile Include="Account.cs" />
-    <Compile Include="ContriAccount.cs" />
-    <Compile Include="FaitAccount.cs" />
+    <Compile Include="Application.cs" />
+    <Compile Include="Member.cs" />
+    <Compile Include="MemberAdd.cs" />
+    <Compile Include="MemberManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Seat.cs" />
     <Compile Include="wbGlobal.cs" />
+    <Compile Include="WbMemberList.cs" />
+    <Compile Include="wbMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

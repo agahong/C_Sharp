@@ -1,0 +1,7 @@
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\_0428컬렉션\_0428컬렉션\bin\Debug\_0428컬렉션.exe.config
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\_0428컬렉션\_0428컬렉션\bin\Debug\_0428컬렉션.exe
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\_0428컬렉션\_0428컬렉션\bin\Debug\_0428컬렉션.pdb
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\_0428컬렉션\_0428컬렉션\obj\Debug\_0428컬렉션.csprojAssemblyReference.cache
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\_0428컬렉션\_0428컬렉션\obj\Debug\_0428컬렉션.csproj.CoreCompileInputs.cache
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\_0428컬렉션\_0428컬렉션\obj\Debug\_0428컬렉션.exe
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\_0428컬렉션\_0428컬렉션\obj\Debug\_0428컬렉션.pdb

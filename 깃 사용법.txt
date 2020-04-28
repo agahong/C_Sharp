@@ -1,0 +1,5 @@
+git status - 변경파일 확인
+git add . - 모든파일 주목
+git commit -m "설명" - 커밋하기
+git remote -v - 보내는곳 확인
+git push - 깃허브 전송

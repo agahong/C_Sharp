@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace cpp2cs
 {
@@ -9,7 +10,7 @@ namespace cpp2cs
         private int index;
         #endregion
 
-        #region 프로퍼티
+        #region 인덱서
         public Account this[int idx]
         {
             get
@@ -45,16 +46,7 @@ namespace cpp2cs
             return int.Parse(Console.ReadLine());
         }
 
-        private void SetTempData(ref Account temp)
-        {
-            Console.WriteLine("개좌 개설 ------");
-            Console.WriteLine("개좌  ID: ");
-            temp.Id = int.Parse(Console.ReadLine());
-            Console.WriteLine("이    름: ");
-            temp.Name = Console.ReadLine();
-            Console.WriteLine("입 금 액: ");
-            temp.Balance = int.Parse(Console.ReadLine());
-        }
+
         #endregion
 
         #region 메서드
@@ -68,75 +60,99 @@ namespace cpp2cs
             Console.WriteLine("5.프로그램 종료 ");
         }
 
+        private void AccountInput(out int id, out String name, out int balance)
+        {
+            Console.WriteLine("개좌 개설 ------");
+            id = WbGlobal.InputInt("개좌  ID");
+            name = WbGlobal.InputString("이    름");
+            balance = WbGlobal.InputInt("입 금 액");
+        }
+
         public void MakeAccount()      // 계좌 개설
         {
             int sel = SelectAccount();
-            Account temp = new Account();
 
-            SetTempData(ref temp);
+            int id, balance;
+            String name;
+            AccountInput(out id, out name, out balance);
 
             try
             {
-                if (sel == 1)
-                    pArray[index++] = temp;
-                else if (sel == 2)
-                    pArray[index++] = new FaitAccount(temp.Id, temp.Name, temp.Balance) as Account;
-                else if (sel == 3)
-                    pArray[index++] = new ContriAccount(temp.Id, temp.Name, temp.Balance) as Account;
-                else
-                    Console.WriteLine("선택 오류");
+                //변수 선언
+                Account acc = null;
 
+                //초기화
+                if (sel == 1)
+                    acc = new Account(id, name, balance);
+                else if (sel == 2)
+                    acc = new FaitAccount(id, name, balance);
+                else if (sel == 3)
+                    acc = new ContriAccount(id, name, balance);
+                else
+                    throw new Exception("선택 오류");
+
+                //연산
+                pArray[index++] = acc;
+
+                //결과출력
                 Console.WriteLine("계좌개설 완료");
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine("[계좌개설 에러]" + ex.Message);
             }
-            
         }
-        
-        public void Depoist()          // 입 금
-        {
-            Console.Write("계좌 ID : ");
-            int id = int.Parse(Console.ReadLine());
-            Console.Write("입금액  : ");
-            int money = int.Parse(Console.ReadLine());
 
-            for(int i=0;i<index;i++)
-            {
-                if (pArray[i].Id == id) 
-                {
-                    pArray[i].AddMoney(money);
-                    Console.WriteLine("입금 완료");
-                    return;
-                }
-            }
-            Console.WriteLine("유효하지 않은 ID입니다");
-        }
-        
-        public void Withdraw()         // 출 금
+        private int IdToIdx(int id)
         {
-            Console.Write("계좌 ID : ");
-            int id = int.Parse(Console.ReadLine());
-            Console.Write("출금액  : ");
-            int money = int.Parse(Console.ReadLine());
-
             for (int i = 0; i < index; i++)
             {
                 if (pArray[i].Id == id)
-                {
-                    if (pArray[i].Balance < money)
-                    {
-                        Console.WriteLine("잔액 부족");
-                        return;
-                    }
-
-                    pArray[i].MinMoney(money);
-                    Console.WriteLine("출금완료");
-                    return;
-                }
+                    return i;
             }
-            Console.WriteLine("유효하지 않은 ID입니다");
+            throw new Exception("해당 계좌번호는 존재하지 않습니다.");
+        }
+
+        public void Depoist()          // 입 금
+        {
+            //변수 선언 및 초기화 
+            int id = WbGlobal.InputInt("계좌 ID");
+            int money = WbGlobal.InputInt("입금액");
+
+            try
+            {
+                //연산
+                int idx = IdToIdx(id);
+                pArray[idx].AddMoney(money);
+
+                //결과출력
+                Console.WriteLine("입금 완료");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("[출금에러] {0}", ex.Message);
+            }
+        }
+
+        public void Withdraw()         // 출 금
+        {
+            //변수 선언 및 초기화 
+            int id = WbGlobal.InputInt("계좌 ID");
+            int money = WbGlobal.InputInt("출금액");
+
+            try
+            {
+                //연산
+                int idx = IdToIdx(id);
+                pArray[idx].MinMoney(money);
+
+                //결과출력
+                Console.WriteLine("입금 완료");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("[출금에러] {0}", ex.Message);
+            }
         }
 
         public void Inquire()          // 잔액 조회

@@ -39,14 +39,16 @@ namespace cpp2cs
         }
 
         public Account(Account acc)
-	    {
-		    id = acc.Id;
-		    balance = acc.Balance;
+        {
+            id = acc.Id;
+            balance = acc.Balance;
             name = acc.Name;
         }
         #endregion
 
-        #region 메서드
+        #region 메서드      
+
+
         public virtual void AddMoney(double val)
         {
             Balance = Balance + val;
@@ -61,9 +63,12 @@ namespace cpp2cs
 
         public void MinMoney(int val)
         {
+            if (Balance < val)
+                throw new Exception("잔액이 부족합니다.");
             Balance = Balance - val;
         }
         #endregion
+
 
     }
 }
