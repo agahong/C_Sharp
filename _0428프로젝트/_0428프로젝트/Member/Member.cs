@@ -28,8 +28,8 @@ namespace _0428MiniProject
 
         public void Print()
         {
-            Console.Write("[{0}] ", Id);
-            Console.WriteLine("{0}, {1}조, {2}", Name, GroupNumber, SName);
+            Console.Write("[{0}]\t", Id);
+            Console.WriteLine("{0},\t{1}조,\t{2}", Name, GroupNumber, SName);
         }
 
         public void PrintLine()

@@ -45,11 +45,11 @@ namespace _0428MiniProject
                 switch(wbMenu.MemberMenu())
                 {
                     case ConsoleKey.F1: MemberManager.Singleton.AddMember(); break;
-                    case ConsoleKey.F2: Console.WriteLine("F2"); break;
-                    case ConsoleKey.F3: Console.WriteLine("F3"); break;
-                    case ConsoleKey.F4: Console.WriteLine("F4"); break;
-                    case ConsoleKey.F5: Console.WriteLine("F5"); break;
-                    case ConsoleKey.F6: Console.WriteLine("F6"); break;
+                    case ConsoleKey.F2: MemberManager.Singleton.SelectMemberId(); break;
+                    case ConsoleKey.F3: MemberManager.Singleton.SelectMemberGroup(); break;
+                    case ConsoleKey.F4: MemberManager.Singleton.SelectMemberSubject(); break;
+                    case ConsoleKey.F5: MemberManager.Singleton.UpdateMember(); break;
+                    case ConsoleKey.F6: MemberManager.Singleton.DeleteMember(); break;
                     case ConsoleKey.Escape: return;
                 }
                 wbGlobal.Pause();
@@ -62,14 +62,15 @@ namespace _0428MiniProject
             {
                 Console.Clear();
                 //전체출력코드
+                SeatManager.Singleton.PrintAll();
 
                 switch (wbMenu.SeatMenu())
                 {
-                    case ConsoleKey.F1: Console.WriteLine("F1"); break;
-                    case ConsoleKey.F2: Console.WriteLine("F2"); break;
-                    case ConsoleKey.F3: Console.WriteLine("F3"); break;
-                    case ConsoleKey.F4: Console.WriteLine("F4"); break;
-                    case ConsoleKey.F5: Console.WriteLine("F5"); break;
+                    case ConsoleKey.F1: SeatManager.Singleton.AddSeat(); break;
+                    case ConsoleKey.F2: SeatManager.Singleton.MoveSeat(); break;
+                    case ConsoleKey.F3: SeatManager.Singleton.ChangeSeat(); break;
+                    case ConsoleKey.F4: SeatManager.Singleton.DeleteSeat(); break;
+                    case ConsoleKey.F5: SeatManager.Singleton.SelectSeat(); break;
                     case ConsoleKey.Escape: return;
                 }
                 wbGlobal.Pause();

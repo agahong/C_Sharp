@@ -25,8 +25,14 @@ namespace _0428MiniProject
             Id = id;
             RowId = rid;
             ColId = cid;
-            Memberid = -1;
+            Memberid = Constant.Empty;  //-1
+        }
+
+        public void PrintLine()
+        {
+            Console.WriteLine("좌석번호   : {0}", Id);
+            Console.WriteLine("학생아이디 : {0}", Memberid);
+            Console.WriteLine("좌석위치   : ({0},{1})", RowId, ColId);
         }
     }
-
 }

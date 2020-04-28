@@ -28,7 +28,6 @@ namespace _0428MiniProject
             Console.WriteLine("*********************************************");
             Console.WriteLine(" 프로그램을 종료합니다.");
             Console.WriteLine("*********************************************");
-            Pause();
         }
 
         public static void Pause()
@@ -37,5 +36,27 @@ namespace _0428MiniProject
             Console.ReadKey();
         }
         #endregion
+
+        public static int InputInt(String msg)
+        {
+            int result;
+            while (true)
+            {
+                Console.Write("{0}", msg);
+
+                if (int.TryParse(Console.ReadLine(), out result) == true)
+                    return result;
+            }
+        }
+
+        public static String InputString(String msg)
+        {
+            while (true)
+            {
+                Console.Write("{0}", msg);
+
+                return Console.ReadLine();
+            }
+        }
     }
 }

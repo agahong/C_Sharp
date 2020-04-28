@@ -16,24 +16,26 @@ namespace _0428MiniProject
         //ID는 중복되면 안됨.
         public Member AddMember(WbMemberList memlist)
         {
-            int id;
+            int id, groupid;
             while (true)
             {
-                Console.Write("아이디 : ");
-                id = int.Parse(Console.ReadLine());
+                id = wbGlobal.InputInt("아이디 : ");
                 if (IdCheck(memlist, id))
                     break;
                 Console.WriteLine("중복된 아이디입니다. 재 입력해주세요");
             }
 
-            Console.Write("이름 : ");
-            string name = Console.ReadLine();
+            string name = wbGlobal.InputString("이름 : ");
 
-            Console.Write("조(1~6) : ");
-            int groupid = int.Parse(Console.ReadLine());
+            while(true)
+            {
+                groupid = wbGlobal.InputInt("조(1~6) : ");
+                if(1<=groupid || groupid<=6)
+                    break;
+                Console.WriteLine("1부터 6조 사이의 값을 입력해주세요.");
+            }
 
-            Console.Write("학과([[1]COM [2]IT [3]GAME [4]ETC) : ");
-            int subject = int.Parse(Console.ReadLine());
+            int subject = wbGlobal.InputInt("학과([[1]COM [2]IT [3]GAME [4]ETC)");
 
             return new Member(id, name, groupid, NumberToSubject(subject));
         }
