@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7B9E7DF6-87B8-4BA5-8D08-361DD89CDA78}</ProjectGuid>
+    <ProjectGuid>{88E7855C-3EB5-4B2F-BC6B-116B889F46C9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_0428프로젝트</RootNamespace>
-    <AssemblyName>_0428프로젝트</AssemblyName>
+    <RootNamespace>_0429</RootNamespace>
+    <AssemblyName>0429</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,28 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Application.cs" />
-    <Compile Include="Constant.cs" />
-    <Compile Include="Member\Member.cs" />
-    <Compile Include="Member\MemberAdd.cs" />
-    <Compile Include="Member\MemberDelete.cs" />
-    <Compile Include="Member\MemberManager.cs" />
-    <Compile Include="Member\MemberSelect.cs" />
-    <Compile Include="Member\MemberUpdate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Seat\Seat.cs" />
-    <Compile Include="Seat\SeatAdd.cs" />
-    <Compile Include="Seat\SeatDelete.cs" />
-    <Compile Include="Seat\SeatManager.cs" />
-    <Compile Include="Seat\SeatMove.cs" />
-    <Compile Include="Seat\SeatChange.cs" />
-    <Compile Include="Seat\SeatSelect.cs" />
-    <Compile Include="Seat\wbSeatList.cs" />
-    <Compile Include="wbGlobal.cs" />
-    <Compile Include="Member\WbMemberList.cs" />
-    <Compile Include="wbMenu.cs" />
-    <Compile Include="Seat\wbSeat.cs" />
+    <Compile Include="WbDate.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
