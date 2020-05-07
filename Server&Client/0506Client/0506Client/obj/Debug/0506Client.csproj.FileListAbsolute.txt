@@ -1,0 +1,7 @@
+C:\Users\LEE\Desktop\0506Client\0506Client\bin\Debug\0506Client.exe.config
+C:\Users\LEE\Desktop\0506Client\0506Client\bin\Debug\0506Client.exe
+C:\Users\LEE\Desktop\0506Client\0506Client\bin\Debug\0506Client.pdb
+C:\Users\LEE\Desktop\0506Client\0506Client\obj\Debug\0506Client.csprojAssemblyReference.cache
+C:\Users\LEE\Desktop\0506Client\0506Client\obj\Debug\0506Client.csproj.CoreCompileInputs.cache
+C:\Users\LEE\Desktop\0506Client\0506Client\obj\Debug\0506Client.exe
+C:\Users\LEE\Desktop\0506Client\0506Client\obj\Debug\0506Client.pdb

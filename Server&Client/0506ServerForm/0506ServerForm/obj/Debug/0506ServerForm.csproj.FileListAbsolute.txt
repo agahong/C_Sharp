@@ -1,0 +1,17 @@
+C:\Users\LEE\Desktop\0506ServerForm\0506ServerForm\bin\Debug\0506ServerForm.exe.config
+C:\Users\LEE\Desktop\0506ServerForm\0506ServerForm\bin\Debug\0506ServerForm.exe
+C:\Users\LEE\Desktop\0506ServerForm\0506ServerForm\bin\Debug\0506ServerForm.pdb
+C:\Users\LEE\Desktop\0506ServerForm\0506ServerForm\obj\Debug\0506ServerForm.csproj.CoreCompileInputs.cache
+C:\Users\LEE\Desktop\0506ServerForm\0506ServerForm\obj\Debug\0506ServerForm.exe
+C:\Users\LEE\Desktop\0506ServerForm\0506ServerForm\obj\Debug\0506ServerForm.pdb
+C:\Users\LEE\Desktop\0506ServerForm\0506ServerForm\obj\Debug\0506ServerForm.csprojAssemblyReference.cache
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\Server&Client\0506ServerForm\0506ServerForm\bin\Debug\0506ServerForm.exe.config
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\Server&Client\0506ServerForm\0506ServerForm\bin\Debug\0506ServerForm.exe
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\Server&Client\0506ServerForm\0506ServerForm\bin\Debug\0506ServerForm.pdb
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\Server&Client\0506ServerForm\0506ServerForm\obj\Debug\0506ServerForm.csprojAssemblyReference.cache
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\Server&Client\0506ServerForm\0506ServerForm\obj\Debug\0506ServerForm.csproj.CoreCompileInputs.cache
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\Server&Client\0506ServerForm\0506ServerForm\obj\Debug\0506ServerForm.exe
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\Server&Client\0506ServerForm\0506ServerForm\obj\Debug\0506ServerForm.pdb
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\Server&Client\0506ServerForm\0506ServerForm\bin\Debug\WbServer.dll
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\Server&Client\0506ServerForm\0506ServerForm\bin\Debug\WbServer.pdb
+C:\Users\LEE\Desktop\비트수업\비트_고급\C#\Server&Client\0506ServerForm\0506ServerForm\obj\Debug\0506ServerForm.csproj.CopyComplete

@@ -1,0 +1,6 @@
+C:\Users\LEE\Desktop\0507Library\0507Library\bin\Debug\0507Library.dll
+C:\Users\LEE\Desktop\0507Library\0507Library\bin\Debug\0507Library.pdb
+C:\Users\LEE\Desktop\0507Library\0507Library\obj\Debug\0507Library.csproj.CoreCompileInputs.cache
+C:\Users\LEE\Desktop\0507Library\0507Library\obj\Debug\0507Library.dll
+C:\Users\LEE\Desktop\0507Library\0507Library\obj\Debug\0507Library.pdb
+C:\Users\LEE\Desktop\0507Library\0507Library\obj\Debug\0507Library.csprojAssemblyReference.cache

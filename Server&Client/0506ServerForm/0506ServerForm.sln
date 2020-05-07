@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0506ServerForm", "0506ServerForm\0506ServerForm.csproj", "{2DC86D41-6E31-4C8A-900E-A8EF63691846}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DC86D41-6E31-4C8A-900E-A8EF63691846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DC86D41-6E31-4C8A-900E-A8EF63691846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DC86D41-6E31-4C8A-900E-A8EF63691846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DC86D41-6E31-4C8A-900E-A8EF63691846}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {364E93D1-5DD6-49A9-A339-F233225E0AA2}
+	EndGlobalSection
+EndGlobal

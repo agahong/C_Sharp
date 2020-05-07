@@ -1,0 +1,5 @@
+C:\Users\LEE\Desktop\WbClient\WbClient\bin\Debug\WbClient.dll
+C:\Users\LEE\Desktop\WbClient\WbClient\bin\Debug\WbClient.pdb
+C:\Users\LEE\Desktop\WbClient\WbClient\obj\Debug\WbClient.csproj.CoreCompileInputs.cache
+C:\Users\LEE\Desktop\WbClient\WbClient\obj\Debug\WbClient.dll
+C:\Users\LEE\Desktop\WbClient\WbClient\obj\Debug\WbClient.pdb

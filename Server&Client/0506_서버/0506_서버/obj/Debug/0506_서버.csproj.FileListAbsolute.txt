@@ -1,0 +1,13 @@
+C:\Users\최용재\Desktop\비트\C#\0506_서버\0506_서버\bin\Debug\0506_서버.exe.config
+C:\Users\최용재\Desktop\비트\C#\0506_서버\0506_서버\bin\Debug\0506_서버.exe
+C:\Users\최용재\Desktop\비트\C#\0506_서버\0506_서버\bin\Debug\0506_서버.pdb
+C:\Users\최용재\Desktop\비트\C#\0506_서버\0506_서버\obj\Debug\0506_서버.csprojAssemblyReference.cache
+C:\Users\최용재\Desktop\비트\C#\0506_서버\0506_서버\obj\Debug\0506_서버.csproj.CoreCompileInputs.cache
+C:\Users\최용재\Desktop\비트\C#\0506_서버\0506_서버\obj\Debug\0506_서버.exe
+C:\Users\최용재\Desktop\비트\C#\0506_서버\0506_서버\obj\Debug\0506_서버.pdb
+C:\Users\LEE\Desktop\0506_서버\0506_서버\bin\Debug\0506_서버.exe.config
+C:\Users\LEE\Desktop\0506_서버\0506_서버\bin\Debug\0506_서버.exe
+C:\Users\LEE\Desktop\0506_서버\0506_서버\bin\Debug\0506_서버.pdb
+C:\Users\LEE\Desktop\0506_서버\0506_서버\obj\Debug\0506_서버.csproj.CoreCompileInputs.cache
+C:\Users\LEE\Desktop\0506_서버\0506_서버\obj\Debug\0506_서버.exe
+C:\Users\LEE\Desktop\0506_서버\0506_서버\obj\Debug\0506_서버.pdb

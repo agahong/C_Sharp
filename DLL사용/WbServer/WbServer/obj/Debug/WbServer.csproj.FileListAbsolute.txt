@@ -1,0 +1,6 @@
+C:\Users\LEE\Desktop\WbServer\WbServer\bin\Debug\WbServer.dll
+C:\Users\LEE\Desktop\WbServer\WbServer\bin\Debug\WbServer.pdb
+C:\Users\LEE\Desktop\WbServer\WbServer\obj\Debug\WbServer.csprojAssemblyReference.cache
+C:\Users\LEE\Desktop\WbServer\WbServer\obj\Debug\WbServer.csproj.CoreCompileInputs.cache
+C:\Users\LEE\Desktop\WbServer\WbServer\obj\Debug\WbServer.dll
+C:\Users\LEE\Desktop\WbServer\WbServer\obj\Debug\WbServer.pdb

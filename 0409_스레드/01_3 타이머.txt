@@ -1,0 +1,73 @@
+/***********************************************************************
+ *  스레드 생성 방법 
+ *   1. Thread 클래스를 이용한 생성
+ *      가장 일반적인 방법
+ * 
+ *   2. ThreadPool 클래스를 이용한 생성
+ *      과도한 컨텍스트 스위칭을 발생시킬 수 있슴
+ *      프로세스 별로 일정량의 스레드를 수용할 수 있는 풀을 만들고,
+ *      스레드 풀 내에서 스레드를 이용함으로써 적절한 스레드 수를 
+ *      유지할 수 있다.
+ *      적절한 수준의 스레드 수를 유지할 수 있기 떄문에 1번 방법보다 상대적
+ *      으로 높은 안정성과 성능 제공함
+ *   3. Timer 클래스를 이용한 생성
+ *      .NET에서 제공되는 Timer
+ *      (1) System.WinForms.TImer
+ *          단일 스레드 환경에서 사용하는 윈폼 툴 박스 Timer로 주어진 시간마다
+ *          Tick 이벤트를 발생
+ *      (2) System.Timer.Timer
+ *          멀티 스레드 환경에서 사용 가능하며 Server Timer, Component 툴 박
+ *          스의 타이머에서 사용되며 주어진 기간마다 Tick 이벤트를 발생시킴
+ *      (3) System.Threading.Timer
+ *          Timer를 이용한 스레드는 주로 System.Threading.Timer 클래스를 사용
+ *          해 발생시킴
+ *          Timer 클래스 객체를 생성한 후 TimerCallback 델리게이트 인자와 
+ *          메서드로 타이머에 전달할 인자, 기간을 설정해 스레드를 만듬
+ ***********************************************************************/
+using System;
+using System.Threading;
+
+
+namespace 확인
+{
+    //3 방법
+    class Program
+    {
+        // 첫번째 스레드
+        public static void Print1(object obj)
+        {
+            Console.WriteLine("첫번째 Thread ***");
+        }
+
+        // 두번째 스레드
+        public void Print2(object obj)
+        {
+            Console.WriteLine("두번째 Thread  ***");
+        }
+
+        static void Main(string[] args)
+        {
+            // Timer 클래스 객체를 생성하는 부분
+            //1st : TimerCallback 대리자(Delegation)
+            //2nd : 콜백 메서드에서 사용할 정보가 포함된 개체를 반환하거나, null반환
+            //3rd : 콜백이 호출되기 전에 지연할 시간
+            //      즉시 시작 : 0, 
+            //      시작되지 않도록 하려면 Timeout.Infinite
+            //4rd : call 호출 사이 간격
+            //      정기적인 신호를 보내지 않으려면 Timeout.Infinite
+            Timer timer = new Timer(new TimerCallback(Print1), null, 200, 100);
+            //timer.Change(200, 1000);
+
+            // Timer 클래스 객체를 생성하는 부분             
+            timer = new Timer(new TimerCallback((new
+                Program()).Print2), null, 200, 100);
+
+            Thread.Sleep(500);
+
+            timer.Dispose();
+
+        }
+    }
+
+
+}
